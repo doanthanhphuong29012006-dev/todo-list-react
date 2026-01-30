@@ -75,6 +75,7 @@ function App() {
         
         <div className="input-group">
           <input 
+            className="input-text"
             value={job} 
             ref={inputRef}
             onChange={handleSubmit}
@@ -82,6 +83,7 @@ function App() {
             placeholder="Việc cần làm..."
           />
           <input
+            className="input-date"
             type="Date"
             value={jobDate}
             onChange={handleSubmitDate}
